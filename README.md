@@ -65,8 +65,6 @@ cd ..  (回到 openpose目錄)
 
 4.以足球分類中心周圍特定區域進行動作辨識(OpenPose)，全畫面關節點擷取縮減至畫面的1/6，並降低影像輸入以減少系統運算量。
 以足球偵測框周圍放大至右上角，蒐集球員關節點並持續輸出分類動作，並新增動作比例與鳥瞰圖於畫面上。
-![image](https://github.com/user-attachments/assets/fd0098da-7663-4040-944e-befd9c7a5c53)
-
 
 ![act02](https://github.com/user-attachments/assets/9cdbe58e-cba1-4129-ad35-6fcfc0ced917)
 
