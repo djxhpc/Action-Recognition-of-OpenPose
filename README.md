@@ -51,18 +51,20 @@ cd ..  (回到 openpose目錄)
 ```
 ## Step.5 DEMO
 1.於Roboflow平台使用YOLOv8訓練足球員，使影像抓到觀眾以外之分類球員。
+
 ![yolo001](https://github.com/user-attachments/assets/81496706-34bc-417f-a75c-d04d982d2bfe)
 
 2.使影像球員背景顏色過濾，並使用K-means隊球衣顏色進行聚類，再更改球員邊界框顏色以區分隊伍。
+
 ![kmeans](https://github.com/user-attachments/assets/3e6aa7fd-f1b5-465e-851c-5f068b5ae11b)
 ![obj00](https://github.com/user-attachments/assets/36fcda30-5b06-4e00-87d8-8bff47527e11)
 
-
 3.對球員對做進行訓練(不同資料集訓練80%與測試20%)與動作分類(跑步、站立、走路、強踢、傳球)，但影像整體呈現繁雜，缺乏關鍵時刻資訊，使不必要運算量增加，後續步驟將其改進。
+
 ![objact01](https://github.com/user-attachments/assets/5b30653f-61d4-40c2-8a75-5226f397aef5)
 
-
 4.以足球分類中心周圍特定區域進行動作辨識(OpenPose)，顯示畫面放置於右上角，並新增動作比例與鳥瞰圖於畫面上。
+
 ![act02](https://github.com/user-attachments/assets/9cdbe58e-cba1-4129-ad35-6fcfc0ced917)
 
 
