@@ -1,5 +1,5 @@
 # Action-Recognition-of-OpenPose
-使適應足球各比賽場景導入深度學習技術，應用結合物件偵測(YOLOv8)與動作辨識技術(OpenPose)。
+主要針對足球比賽中的攝影機視角的大量影像資料 (SoccerNet) 蒐集並訓練，在足球比賽影像中，以 YOLOv8(You Only Look Once) 偵測所有目標球員位置，根據不同隊伍、裁判建立特徵模型並賦予相應的隊伍標籤 ID 來追蹤場中目標球員。球場中的目標球員的活動資訊蒐集來源技術是使用以人體姿態檢測 (Human Pose Estimation) 的用 OpenPose 姿態檢測模型為主，並蒐集球員在 2D 影像中的蒐集人體關節點 (X,Y) 座標變化，並將輸入至預先訓練的長短期記憶網路與 Transformer 模型，並產生即時動作分類的結果。
 
 # 建立虛擬環境 (For Linux)※Windows變因很多暫不使用
 
